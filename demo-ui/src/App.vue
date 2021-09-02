@@ -34,19 +34,22 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld />
+      <!--<HelloWorld />-->
+      <constrained />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+//import HelloWorld from "./components/HelloWorld";
+import constrained from "./components/constrained";
 
 export default {
   name: "App",
 
   components: {
-    HelloWorld,
+    //HelloWorld,
+    constrained,
   },
 
   data: () => ({
